@@ -2,84 +2,68 @@
 <html>
 <head lang="en">
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meshap</title> 
 </head>
 <body>
     <header class="header">
-        <div class="wrapper__preview__fill">
-            <div class="preview"></div>
-            <div class="header__wrpper">
-                <div class="menu__header">
-                    <div class="header__logo">
-                        <a href="#" class="header__logo-link">
-                            <img src="./image/svg/logo.svg" />
-                        </a>
-                    </div>
-                    <nav class="header__nav">
-                        <ul class="header__list">
-                            <li class="header__item">
-                                <a href="#!" class="header__link">Menu</a>
-                            </li>
-                            <li class="header__item">
-                                <a href="#!" class="header__link">About</a>
-                            </li>
-                            <li class="header__item">
-                                <a href="#!" class="header__link">Feature</a>
-                            </li>
-                            <li class="header__item">
-                                <a href="#!" class="header__link">Gallary</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <button>Buy now</button>
+        <div class="wrapper__header">
+            <div class="header__logo">
+                <a href="#"><img src="./image/logo.svg" alt="Meshap Logo"></a>
+                <a href="#"><img src="./image/logoM.svg" alt="Meshap Logo"></a>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="#" class="header__link">About</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">News</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Music</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Playlist</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="intro">
+            <div class="wrapper">
+                <div class="heading">
+                    <h2 class="last__track">Last track</h2>
+                    <h1 class="last__track__name">MOVIESTRAIFE - LIVESEY WALKING IN MIAMI</h1>
                 </div>
-                <div class="header__content">
-                    <div class="header__content__discription">
-                        <h1>Life is better<br>in running <br><span>shoes</span>.</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Egestas leo ultrices </p>
-                    </div>
-                    <div class="header__content__img">
-                        <img src="./image/svg/cross.svg" />
-                    </div>
+            </div>
+        </section>
+        <div class="player">
+            <div class="player__icon">
+                <div class="cover"><img class="cover__img" src="./image/cover1.svg" alt="cover"></div>
+            </div>
+
+            <div class="player__control">
+                <div class="title">Current track</div>
+                <div class="song">·ÛÏÂsky - –¿…¿¿¿¿¿Õ</div>
+                <audio class="audio" src="./audio/·ÛÏÂsky - –¿…¿¿¿¿¿Õ.mp3"></audio>
+                <div class="progress__container">
+                    <div class="progress"></div>
                 </div>
-                <div class="header__shop">
-                    <ul class="shop__list">
-                        <li class="shop__item">
-                            <p class="shop__name">Brand</p>
-                            <div class="shop__selection">
-                                <p class="shop__content">Puma</p>
-                                <img src="./image/svg/arrow.svg" />
-                            </div>
-                        </li>
-                        <li class="shop__item"><div class="line"></div></li>
-                        <li class="shop__item">
-                            <p class="shop__name">Person</p>
-                            <div class="shop__selection">
-                                <p class="shop__content">man</p>
-                                <img src="./image/svg/arrow.svg" />
-                            </div>
-                        </li>
-                        <li class="shop__item"><div class="line"></div></li>
-                        <li class="shop__item">
-                            <p class="shop__name">Size</p>
-                            <div class="shop__selection">
-                                <p class="shop__content">large</p>
-                                <img src="./image/svg/arrow.svg" />
-                            </div>
-                        </li>
-                        <li class="shop__item"><div class="line"></div></li>
-                        <li class="shop__item">
-                            <p class="shop__name">Price</p>
-                            <div class="shop__selection">
-                                <p class="shop__content">$150</p>
-                                <img src="./image/svg/arrow.svg" />
-                            </div>
-                        </li>
-                    </ul>
+                <div class="buttons">
+                    <div class="btn prev" alt="btn prev"><img src="./image/prev.svg" alt="btn"></div>
+                    <div class="btn play" alt="btn play"><img class="img__src" src="./image/play.svg" alt="btn"></div>
+                    <div class="btn next" alt="btn next"><img src="./image/next.svg" alt="btn"></div>
                 </div>
             </div>
         </div>
-    </header>
+    </main>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>
