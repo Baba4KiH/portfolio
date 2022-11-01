@@ -723,6 +723,7 @@ img {
         top: 0;
         left: 0;
         background: #0E1D28;
+        opacity: 0.8;
         z-index: 10;
         padding: 75px;
         transform: translateX(100%);
